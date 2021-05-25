@@ -2,65 +2,74 @@ var config = {
     style: 'mapbox://styles/katrina/ckoxzqp0j21sx17ozjoz43uq5',
     accessToken: 'pk.eyJ1Ijoia2F0cmluYSIsImEiOiJoYkswcE1rIn0.h-ovShDXatAjFOVZZ7s9RA',
     showMarkers: true,
-    theme: 'light',
+    markerColor: '#4D194D',
+    theme: 'dark',
     use3dTerrain: true,
-    title: 'Elevated Van Journeys',
-    subtitle: 'Reconnecting with your mind, body, and nature',
+    // title: 'Elevated Van Journeys',
+    // subtitle: 'Reconnecting with your mind, body, and nature',
     footer: 'Thank you!',
     chapters: [
         {
             id: 'intro',
+            alignment: 'full',
+            hidden: false,
+            title: '',
+            image: './images/01-intro.png',
+            description: '',
+            location: {
+              center: { lon: -114.46088, lat: 36.99249 },
+                zoom: 4,
+                pitch: 59.50,
+                bearing: 26.86
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false
+        },{
+            id: 'problems',
+            alignment: 'full',
+            hidden: false,
+            title: '',
+            image: './images/02-problems.png',
+            description: '',
+            location: {
+              center: { lon: -114.46088, lat: 36.99249 },
+                zoom: 4,
+                pitch: 59.50,
+                bearing: 26.86
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false
+          },{
+              id: 'solutions',
+              alignment: 'full',
+              hidden: false,
+              title: '',
+              image: './images/03-solutions.png',
+              description: '',
+              location: {
+                center: { lon: -114.46088, lat: 36.99249 },
+                  zoom: 4,
+                  pitch: 59.50,
+                  bearing: 26.86
+              },
+              mapAnimation: 'flyTo',
+              rotateAnimation: false
+          },{
+
+            id: 'camper-van',
             alignment: 'center',
             hidden: false,
             title: 'The Grand Circle',
             image: './images/camper.png',
-            description: 'Welcome to the first day of your journey with Elevated Vans!',
+            description: '<iframe width="640" height="350" src="https://youtu.be/IRY9p9qHKgA?t=29"></iframe>',
             location: {
               center: { lon: -114.46088, lat: 36.99249 },
-                zoom: 6.65,
+                zoom: 5,
                 pitch: 59.50,
                 bearing: 26.86
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                //    layer: 'katrina.cqrohss7',
-                //     opacity: .45,
-                // },{
-                  // layer: 'nps.park-tiles',
-                  // opacity: 1
-                }
-            ],
-            onChapterExit: []
-        },
-        {
-            id: 'intro',
-            alignment: 'center',
-            hidden: false,
-            title: 'Elevated Van Journeys',
-            image: './images/elevated-logo.png',
-            description: 'Welcome to the first day of your journey with Elevated Vans!',
-            location: {
-              center: { lon: -114.46088, lat: 36.99249 },
-                zoom: 6.65,
-                pitch: 59.50,
-                bearing: 26.86
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                //    layer: 'katrina.cqrohss7',
-                //     opacity: .45,
-                // },{
-                  // layer: 'nps.park-tiles',
-                  // opacity: 1
-                }
-            ],
-            onChapterExit: []
         },
         {
             id: 'intro',
@@ -76,18 +85,7 @@ var config = {
                 bearing: 26.86
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-                {
-                //    layer: 'katrina.cqrohss7',
-                //     opacity: .45,
-                // },{
-                  // layer: 'nps.park-tiles',
-                  // opacity: 1
-                }
-            ],
-            onChapterExit: []
+            rotateAnimation: false
         },
         {
             id: 'arrival',
@@ -109,8 +107,8 @@ var config = {
             onChapterExit: []
           },
           {
-              id: 'valley-fire',
-              alignment: 'left',
+              id: 'intro',
+              alignment: 'center',
               hidden: false,
               title: 'Valley of Fire',
               image: './path/to/image/source.png',
@@ -131,7 +129,7 @@ var config = {
                 alignment: 'right',
                 hidden: false,
                 title: 'Zion Exploration',
-                image: './path/to/image/source.png',
+                image: './images/elevated-logo.png',
                 description: 'Hike or road bike around Zion for the afternoon',
                 location: {
                     center: [-113.0263, 37.2982],
@@ -149,8 +147,8 @@ var config = {
                   alignment: 'left',
                   hidden: false,
                   title: 'Bryce Canyon',
-                  // image: './path/to/image/source.png',
-                  description: 'Spend the day .',
+                  image: './images/bryce-canyon.jpeg',
+                  description: 'On Day 2 of your trip, you’ll head over to Bryce Canyon. Elevated sites are in some of the most majestic locations in the world. It only takes 1-3 hours to drive between each of the destinations on your itinerary so you can take your time and relish in each location.',
                   location: {
                       center: [-112.1871, 37.5930],
                       zoom: 9.03,
@@ -163,12 +161,12 @@ var config = {
                   onChapterEnter: [],
                   onChapterExit: []
                 },{
-                    id: 'antelope-canyon',
+                    id: 'horseshoe-canyon',
                     alignment: 'right',
                     hidden: false,
                     title: 'Zion Exploration',
-                    image: './path/to/image/source.png',
-                    description: 'Hike or road bike around Zion for the afternoon',
+                    image: './images/horseshoe.jpeg',
+                    description: 'Explore horseshoe for the afternoon',
                     location: {
                         center: [-111.5104, 36.8791],
                         zoom: 9.03,
@@ -185,8 +183,8 @@ var config = {
                       alignment: 'left',
                       hidden: false,
                       title: 'Grand Canyon Exploration',
-                      image: './path/to/image/source.png',
-                      description: 'Hike or road bike around Zion for the afternoon',
+                      image: './images/grand-canyon.png',
+                      description: 'Hike or road bike around Grand Canyon for the afternoon',
                       location: {
                           center: [-112.1401, 36.0544],
                           zoom: 9.03,
