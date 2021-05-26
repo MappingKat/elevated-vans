@@ -5,9 +5,7 @@ var config = {
     markerColor: '#4D194D',
     theme: 'dark',
     use3dTerrain: true,
-    // title: 'Elevated Van Journeys',
-    // subtitle: 'Reconnecting with your mind, body, and nature',
-    footer: 'Thank you!',
+    footer: '',
     chapters: [
         {
             id: 'intro',
@@ -23,7 +21,10 @@ var config = {
                 bearing: 26.86
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
         },{
             id: 'problems',
             alignment: 'full',
@@ -38,7 +39,10 @@ var config = {
                 bearing: 26.86
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
           },{
               id: 'solutions',
               alignment: 'full',
@@ -53,47 +57,70 @@ var config = {
                   bearing: 26.86
               },
               mapAnimation: 'flyTo',
-              rotateAnimation: false
+              rotateAnimation: false,
+              callback: '',
+              onChapterEnter: [],
+              onChapterExit: []
           },{
-
+            id: 'intro',
+            alignment: 'left',
+            hidden: false,
+            title: 'Market Research',
+            image: './images/04-marketing.png',
+            description: '',
+            location: {
+              center: { lon: -114.46088, lat: 36.99249 },
+              zoom: 6.65,
+              pitch: 59.50,
+              bearing: 26.86
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+          },{
+            id: 'intro',
+            alignment: 'left',
+            hidden: false,
+            title: 'Industry Research',
+            image: './images/05-industry.png',
+            description: '',
+            location: {
+              center: { lon: -114.46088, lat: 36.99249 },
+              zoom: 6.65,
+              pitch: 59.50,
+              bearing: 26.86
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+          },{
             id: 'camper-van',
             alignment: 'center',
             hidden: false,
-            title: 'The Grand Circle',
-            image: './images/camper.png',
-            description: '<iframe width="640" height="350" src="https://youtu.be/IRY9p9qHKgA?t=29"></iframe>',
+            title: 'Welcome to the first day of your journey with Elevated Vans!',
+            image: '',
+            description: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IRY9p9qHKgA"></iframe>',
             location: {
-              center: { lon: -114.46088, lat: 36.99249 },
+                center: { lon: -114.46088, lat: 36.99249 },
                 zoom: 5,
                 pitch: 59.50,
                 bearing: 26.86
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
-        },
-        {
-            id: 'intro',
-            alignment: 'left',
-            hidden: false,
-            title: 'Elevated Van Journeys',
-            image: './images/elevated-logo.png',
-            description: 'Welcome to the first day of your journey with Elevated Vans!',
-            location: {
-              center: { lon: -114.46088, lat: 36.99249 },
-                zoom: 6.65,
-                pitch: 59.50,
-                bearing: 26.86
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false
-        },
-        {
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },{
             id: 'arrival',
             alignment: 'right',
             hidden: false,
             title: 'Las Vegas Pick up',
-            // image: './path/to/image/source.png',
-            description: 'Clients will arrive in Vegas where they will pick up their vans.<section id="xRay"><div class="x-ray__RootElement-sc-6kw6up-0 gRqkbK"><div class="x-ray__XRayContainer-sc-6kw6up-1 jtXCWX"><div><div class="x-ray-image__RootElement-ndnnpw-0 bhshHV" style="background-image: url(&quot;/static/08274e67d237c3224ca65f5d67c22655/1f6fe/dv_x-ray-ext-d.jpg&quot;);"><img draggable="false" src="/static/fddace39e7e1ad9e07f2c9b8e7e9dcaf/1f6fe/dv_x-ray-int-d.jpg" class="x-ray-image__XRayElement-ndnnpw-4 elwjHj" style="-webkit-mask-position: 74.9724% 66.2431%; -webkit-mask-size: 432px;"></div></div></div><div class="x-ray__XRayCaptionContainer-sc-6kw6up-2 ergVDR visible"><div class="caption"><div class="title">Business Ready</div><div class="subtitle">Lower total cost-of-ownership, easy maintenance</div></div><div class="caption"><div class="title">CARGO VOLUME</div><div class="subtitle">More cargo, small footprint, easy maneuverability</div></div><div class="caption"><div class="title">PRODUCTIVITY TOOL</div><div class="subtitle">Power plant, plug in your tools and get to work</div></div></div></div></section>',
+            description: '',
             location: {
               center: { lon: -115.1398, lat: 36.1699 },
               zoom: 9.03,
@@ -105,31 +132,12 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
-          },
-          {
-              id: 'intro',
-              alignment: 'center',
-              hidden: false,
-              title: 'Valley of Fire',
-              image: './path/to/image/source.png',
-              description: 'Timing is flexible and clients can hike or drive though the Valley of Fire if they would like to.',
-              location: {
-                center: { lon: -114.5352, lat: 36.5073 },
-                zoom: 9.03,
-                pitch: 57.50,
-                bearing: -44.18
-              },
-              mapAnimation: 'flyTo',
-              rotateAnimation: false,
-              callback: '',
-              onChapterEnter: [],
-              onChapterExit: []
-            },{
+          },{
                 id: 'zion',
                 alignment: 'right',
                 hidden: false,
                 title: 'Zion Exploration',
-                image: './images/elevated-logo.png',
+                image: './images/09-zion-ntl-park.jpeg',
                 description: 'Hike or road bike around Zion for the afternoon',
                 location: {
                     center: [-113.0263, 37.2982],
@@ -147,7 +155,7 @@ var config = {
                   alignment: 'left',
                   hidden: false,
                   title: 'Bryce Canyon',
-                  image: './images/bryce-canyon.jpeg',
+                  image: './images/10-bryce-canyon.jpeg',
                   description: 'On Day 2 of your trip, you’ll head over to Bryce Canyon. Elevated sites are in some of the most majestic locations in the world. It only takes 1-3 hours to drive between each of the destinations on your itinerary so you can take your time and relish in each location.',
                   location: {
                       center: [-112.1871, 37.5930],
@@ -161,12 +169,30 @@ var config = {
                   onChapterEnter: [],
                   onChapterExit: []
                 },{
+                    id: 'park-location',
+                    alignment: 'left',
+                    hidden: false,
+                    title: 'Bryce Canyon',
+                    image: './images/14-campfire.jpeg',
+                    description: 'On Day 2 of your trip, you’ll head over to Bryce Canyon. Elevated sites are in some of the most majestic locations in the world. It only takes 1-3 hours to drive between each of the destinations on your itinerary so you can take your time and relish in each location.',
+                    location: {
+                        center: [-112.2871, 37.4930],
+                        zoom: 9.03,
+                        pitch: 57.50,
+                        bearing: -44.18
+                    },
+                    mapAnimation: 'flyTo',
+                    rotateAnimation: false,
+                    callback: '',
+                    onChapterEnter: [],
+                    onChapterExit: []
+                  },{
                     id: 'horseshoe-canyon',
                     alignment: 'right',
                     hidden: false,
                     title: 'Zion Exploration',
-                    image: './images/horseshoe.jpeg',
-                    description: 'Explore horseshoe for the afternoon',
+                    image: './images/11-horseshoe.jpeg',
+                    description: 'On Day 3, you will drive the Horseshoe Canyon [PICTURE]. Remember, everything you need to know about your itinerary including suggested podcasts, charging sites, great restaurants, and directions are in your EVJ app.',
                     location: {
                         center: [-111.5104, 36.8791],
                         zoom: 9.03,
@@ -179,11 +205,30 @@ var config = {
                     onChapterEnter: [],
                     onChapterExit: []
                   },{
+                  },{
+                      id: 'kanab',
+                      alignment: 'right',
+                      hidden: false,
+                      title: 'Kanab',
+                      image: './images/12-kanab.png',
+                      description: 'On Day 4, you’ll make your way to the Grand Canyon. There, like at each overnight location, you’ll find our solar powered charging stations for your van. [OPERATIONS DIAGRAM] At every EVJ site, you’ll be greeted by our on site staff who will assist with specific activities in Zion like hikes, lectures, or yoga classes. They will also give you details on the community dinner so that you can meet fellow travelers. Definitely lean on the on site staff for any questions, but remember if you are between sites, help from EVJ headquarters is always available through the chat feature in the app. We are here at EVJ headquarters in Las Vegas to assist with any challenges that arises including the unlikely event that you have vehicle trouble. Our full time Fleet Manager is available 24/7 to help. On day 5…',
+                      location: {
+                          center: [-111.5104, 36.8791],
+                          zoom: 9.03,
+                          pitch: 57.50,
+                          bearing: -44.18
+                      },
+                      mapAnimation: 'flyTo',
+                      rotateAnimation: false,
+                      callback: '',
+                      onChapterEnter: [],
+                      onChapterExit: []
+                    },{
                       id: 'grand-canyon',
                       alignment: 'left',
                       hidden: false,
                       title: 'Grand Canyon Exploration',
-                      image: './images/grand-canyon.png',
+                      image: './images/13-grand-canyon.png',
                       description: 'Hike or road bike around Grand Canyon for the afternoon',
                       location: {
                           center: [-112.1401, 36.0544],
@@ -214,6 +259,6 @@ var config = {
                         callback: '',
                         onChapterEnter: [],
                         onChapterExit: []
-                      },
+                      }
     ]
 };
