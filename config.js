@@ -5,6 +5,7 @@ var config = {
     markerColor: '#4D194D',
     theme: 'dark',
     use3dTerrain: true,
+    header: '',
     footer: '',
     chapters: [
         {
@@ -84,7 +85,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Industry Research',
-            image: './images/05-industry.png',
+            // image: './images/05-industry.png',
             description: '',
             location: {
               center: { lon: -114.46088, lat: 36.99249 },
