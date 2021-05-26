@@ -7,8 +7,7 @@ var config = {
     use3dTerrain: true,
     header: '',
     footer: '',
-    chapters: [
-        {
+    chapters: [{
             id: 'intro',
             alignment: 'full',
             hidden: false,
@@ -64,10 +63,10 @@ var config = {
               onChapterExit: []
           },{
             id: 'intro',
-            alignment: 'left',
+            alignment: 'full',
             hidden: false,
-            title: 'Market Research',
-            image: './images/04-marketing.png',
+            title: 'Industry Research',
+            image: './images/04-industry.png',
             description: '',
             location: {
               center: { lon: -114.46088, lat: 36.99249 },
@@ -82,10 +81,10 @@ var config = {
             onChapterExit: []
           },{
             id: 'intro',
-            alignment: 'left',
+            alignment: 'full',
             hidden: false,
-            title: 'Industry Research',
-            // image: './images/05-industry.png',
+            title: 'Market Research',
+            image: './images/05-market-research.png',
             description: '',
             location: {
               center: { lon: -114.46088, lat: 36.99249 },
@@ -99,12 +98,11 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
           },{
-            id: 'camper-van',
-            alignment: 'center',
+            id: 'marketing',
+            alignment: 'full',
             hidden: false,
-            title: 'Welcome to the first day of your journey with Elevated Vans!',
-            image: '',
-            description: '<iframe width="560" height="315" src="https://www.youtube.com/embed/IRY9p9qHKgA"></iframe>',
+            title: '',
+            image: './images/06-marketing.png',
             location: {
                 center: { lon: -114.46088, lat: 36.99249 },
                 zoom: 5,
@@ -118,10 +116,10 @@ var config = {
             onChapterExit: []
         },{
             id: 'arrival',
-            alignment: 'right',
+            alignment: 'left',
             hidden: false,
             title: 'Las Vegas Pick up',
-            description: '',
+            description: '<iframe width="auto" height="315" src="https://www.youtube.com/embed/IRY9p9qHKgA"></iframe>',
             location: {
               center: { lon: -115.1398, lat: 36.1699 },
               zoom: 9.03,
@@ -171,7 +169,7 @@ var config = {
                   onChapterExit: []
                 },{
                     id: 'park-location',
-                    alignment: 'left',
+                    alignment: 'right',
                     hidden: false,
                     title: 'Bryce Canyon',
                     image: './images/14-campfire.jpeg',
@@ -189,7 +187,7 @@ var config = {
                     onChapterExit: []
                   },{
                     id: 'horseshoe-canyon',
-                    alignment: 'right',
+                    alignment: 'left',
                     hidden: false,
                     title: 'Zion Exploration',
                     image: './images/11-horseshoe.jpeg',
@@ -248,6 +246,24 @@ var config = {
                         hidden: false,
                         title: 'Las Vegas Return',
                         // image: './path/to/image/source.png',
+                        description: 'Clients will arrive in Vegas where they will pick up their vans.',
+                        location: {
+                          center: { lon: -115.1398, lat: 36.1699 },
+                          zoom: 9.03,
+                          pitch: 57.50,
+                          bearing: -44.18
+                        },
+                        mapAnimation: 'flyTo',
+                        rotateAnimation: false,
+                        callback: '',
+                        onChapterEnter: [],
+                        onChapterExit: []
+                    },{
+                        id: 'return',
+                        alignment: 'full',
+                        hidden: false,
+                        title: 'Las Vegas Return',
+                        image: './images/14-campfire.jpeg',
                         description: 'Clients will arrive in Vegas where they will pick up their vans.',
                         location: {
                           center: { lon: -115.1398, lat: 36.1699 },
