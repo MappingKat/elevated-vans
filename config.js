@@ -80,24 +80,6 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
           },{
-            id: 'intro',
-            alignment: 'full',
-            hidden: false,
-            title: 'Market Research',
-            image: './images/05-market-research.png',
-            description: '',
-            location: {
-              center: { lon: -114.46088, lat: 36.99249 },
-              zoom: 6.65,
-              pitch: 59.50,
-              bearing: 26.86
-            },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [],
-            onChapterExit: []
-          },{
             id: 'marketing',
             alignment: 'full',
             hidden: false,
@@ -115,11 +97,11 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },{
-          id: 'competition',
+          id: 'market research',
           alignment: 'full',
           hidden: false,
           title: '',
-          image: './images/06-marketing.png',
+          image: './images/05-market-research.png',
           location: {
               center: { lon: -114.46088, lat: 36.99249 },
               zoom: 5,
@@ -132,11 +114,11 @@ var config = {
           onChapterEnter: [],
           onChapterExit: []
       },{
-        id: 'team',
+        id: 'marketing',
         alignment: 'full',
         hidden: false,
         title: '',
-        image: './images/06-marketing.png',
+        image: './images/06-product-offerings.png',
         location: {
             center: { lon: -114.46088, lat: 36.99249 },
             zoom: 5,
@@ -149,6 +131,24 @@ var config = {
         onChapterEnter: [],
         onChapterExit: []
     },{
+        id: 'return',
+        alignment: 'full',
+        hidden: false,
+        title: '',
+        image: './images/07-team.png',
+        description: '',
+        location: {
+          center: { lon: -115.1398, lat: 36.1699 },
+          zoom: 9.03,
+          pitch: 57.50,
+          bearing: -44.18
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+      },{
             id: 'arrival',
             alignment: 'left',
             hidden: false,
@@ -165,6 +165,24 @@ var config = {
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
+          },{
+              id: 'return',
+              alignment: 'center',
+              hidden: false,
+              title: '',
+              image: './images/app-interface.png',
+              description: '',
+              location: {
+                center: { lon: -115.1398, lat: 36.1699 },
+                zoom: 9.03,
+                pitch: 57.50,
+                bearing: -44.18
+              },
+              mapAnimation: 'flyTo',
+              rotateAnimation: false,
+              callback: '',
+              onChapterEnter: [],
+              onChapterExit: []
           },{
                 id: 'zion',
                 alignment: 'right',
@@ -295,7 +313,7 @@ var config = {
                         alignment: 'full',
                         hidden: false,
                         title: '',
-                        image: './images/ .jpeg',
+                        image: './images/startup-capital.png',
                         description: '',
                         location: {
                           center: { lon: -115.1398, lat: 36.1699 },
@@ -308,6 +326,42 @@ var config = {
                         callback: '',
                         onChapterEnter: [],
                         onChapterExit: []
-                      }
+                      },{
+                          id: 'references',
+                          alignment: 'full',
+                          hidden: false,
+                          title: '',
+                          image: './images/references.png',
+                          description: '',
+                          location: {
+                            center: { lon: -115.1398, lat: 36.1699 },
+                            zoom: 9.03,
+                            pitch: 57.50,
+                            bearing: -44.18
+                          },
+                          mapAnimation: 'flyTo',
+                          rotateAnimation: false,
+                          callback: '',
+                          onChapterEnter: [],
+                          onChapterExit: []
+                        },{
+                            id: 'references',
+                            alignment: 'full',
+                            hidden: false,
+                            title: '',
+                            image: './images/end.png',
+                            description: '',
+                            location: {
+                              center: { lon: -115.1398, lat: 36.1699 },
+                              zoom: 9.03,
+                              pitch: 57.50,
+                              bearing: -44.18
+                            },
+                            mapAnimation: 'flyTo',
+                            rotateAnimation: false,
+                            callback: '',
+                            onChapterEnter: [],
+                            onChapterExit: []
+                          }
     ]
 };
