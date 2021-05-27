@@ -169,7 +169,7 @@ var config = {
               id: 'return',
               alignment: 'center',
               hidden: false,
-              title: '',
+              title: 'App Interface',
               image: './images/app-interface.png',
               description: '',
               location: {
