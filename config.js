@@ -119,7 +119,7 @@ var config = {
             alignment: 'left',
             hidden: false,
             title: 'Las Vegas Pick up',
-            description: '<iframe width="auto" height="315" src="https://www.youtube.com/embed/IRY9p9qHKgA"></iframe>',
+            description: 'Welcome to the first day of your journey with Elevated Vans! We are absolutely thrilled that you are here and know that have an incredible journey ahead of you. <video controls="controls" width="400" height="300" name="Video Name"><source src="./images/vehicle-video.mov"></video>',
             location: {
               center: { lon: -115.1398, lat: 36.1699 },
               zoom: 9.03,
@@ -137,7 +137,7 @@ var config = {
                 hidden: false,
                 title: 'Zion Exploration',
                 image: './images/09-zion-ntl-park.jpeg',
-                description: 'Hike or road bike around Zion for the afternoon',
+                description: 'At every EVJ site, you’ll be greeted by our on site staff who will assist with specific activities in Zion like hikes, lectures, or yoga classes. ',
                 location: {
                     center: [-113.0263, 37.2982],
                     zoom: 9.03,
@@ -173,7 +173,7 @@ var config = {
                     hidden: false,
                     title: 'Bryce Canyon',
                     image: './images/14-campfire.jpeg',
-                    description: 'On Day 2 of your trip, you’ll head over to Bryce Canyon. Elevated sites are in some of the most majestic locations in the world. It only takes 1-3 hours to drive between each of the destinations on your itinerary so you can take your time and relish in each location.',
+                    description: 'In the evenings, you can experience the stars, good conversation around the campfires, and other various activities.',
                     location: {
                         center: [-112.2871, 37.4930],
                         zoom: 9.03,
@@ -191,7 +191,7 @@ var config = {
                     hidden: false,
                     title: 'Zion Exploration',
                     image: './images/11-horseshoe.jpeg',
-                    description: 'On Day 3, you will drive the Horseshoe Canyon [PICTURE]. Remember, everything you need to know about your itinerary including suggested podcasts, charging sites, great restaurants, and directions are in your EVJ app.',
+                    description: 'On Day 3, you will drive the Horseshoe Canyon. Remember, everything you need to know about your itinerary including suggested podcasts, charging sites, great restaurants, and directions are in your EVJ app.',
                     location: {
                         center: [-111.5104, 36.8791],
                         zoom: 9.03,
@@ -210,7 +210,7 @@ var config = {
                       hidden: false,
                       title: 'Kanab',
                       image: './images/12-kanab.png',
-                      description: 'On Day 4, you’ll make your way to the Grand Canyon. There, like at each overnight location, you’ll find our solar powered charging stations for your van. [OPERATIONS DIAGRAM] At every EVJ site, you’ll be greeted by our on site staff who will assist with specific activities in Zion like hikes, lectures, or yoga classes. They will also give you details on the community dinner so that you can meet fellow travelers. Definitely lean on the on site staff for any questions, but remember if you are between sites, help from EVJ headquarters is always available through the chat feature in the app. We are here at EVJ headquarters in Las Vegas to assist with any challenges that arises including the unlikely event that you have vehicle trouble. Our full time Fleet Manager is available 24/7 to help. On day 5…',
+                      description: 'On Day 4, you’ll make your way to the Grand Canyon. There, like at each overnight location, you’ll find our solar powered charging stations for your van. They will also give you details on the community dinner so that you can meet fellow travelers. Definitely lean on the on site staff for any questions, but remember if you are between sites, help from EVJ headquarters is always available through the chat feature in the app. We are here at EVJ headquarters in Las Vegas to assist with any challenges that arises including the unlikely event that you have vehicle trouble. Our full time Fleet Manager is available 24/7 to help. On day 5…',
                       location: {
                           center: [-111.5104, 36.8791],
                           zoom: 9.03,
@@ -228,7 +228,7 @@ var config = {
                       hidden: false,
                       title: 'Grand Canyon Exploration',
                       image: './images/13-grand-canyon.png',
-                      description: 'Hike or road bike around Grand Canyon for the afternoon',
+                      description: 'On Day 4, you’ll make your way to the Grand Canyon. There, like at each overnight location, you’ll find our solar powered charging stations for your van. [OPERATIONS DIAGRAM] At every EVJ site, you’ll be greeted by our on site staff who will assist with specific activities in Zion like hikes, lectures, or yoga classes. They will also give you details on the community dinner so that you can meet fellow travelers. Definitely lean on the on site staff for any questions, but remember if you are between sites, help from EVJ headquarters is always available through the chat feature in the app. We are here at EVJ headquarters in Las Vegas to assist with any challenges that arises including the unlikely event that you have vehicle trouble. Our full time Fleet Manager is available 24/7 to help.',
                       location: {
                           center: [-112.1401, 36.0544],
                           zoom: 9.03,
