@@ -115,6 +115,40 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },{
+          id: 'competition',
+          alignment: 'full',
+          hidden: false,
+          title: '',
+          image: './images/06-marketing.png',
+          location: {
+              center: { lon: -114.46088, lat: 36.99249 },
+              zoom: 5,
+              pitch: 59.50,
+              bearing: 26.86
+          },
+          mapAnimation: 'flyTo',
+          rotateAnimation: false,
+          callback: '',
+          onChapterEnter: [],
+          onChapterExit: []
+      },{
+        id: 'team',
+        alignment: 'full',
+        hidden: false,
+        title: '',
+        image: './images/06-marketing.png',
+        location: {
+            center: { lon: -114.46088, lat: 36.99249 },
+            zoom: 5,
+            pitch: 59.50,
+            bearing: 26.86
+        },
+        mapAnimation: 'flyTo',
+        rotateAnimation: false,
+        callback: '',
+        onChapterEnter: [],
+        onChapterExit: []
+    },{
             id: 'arrival',
             alignment: 'left',
             hidden: false,
