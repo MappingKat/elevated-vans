@@ -227,7 +227,7 @@ var config = {
                       hidden: false,
                       title: 'Grand Canyon Exploration',
                       image: './images/13-grand-canyon.png',
-                      description: 'On Day 4, you’ll make your way to the Grand Canyon. There, like at each overnight location, you’ll find our solar powered charging stations for your van. [OPERATIONS DIAGRAM] At every EVJ site, you’ll be greeted by our on site staff who will assist with specific activities in Zion like hikes, lectures, or yoga classes. They will also give you details on the community dinner so that you can meet fellow travelers. Definitely lean on the on site staff for any questions, but remember if you are between sites, help from EVJ headquarters is always available through the chat feature in the app. We are here at EVJ headquarters in Las Vegas to assist with any challenges that arises including the unlikely event that you have vehicle trouble. Our full time Fleet Manager is available 24/7 to help.',
+                      description: 'On Day 4, you’ll make your way to the Grand Canyon. There, like at each overnight location, you’ll find our solar powered charging stations for your van.',
                       location: {
                           center: [-112.1401, 36.0544],
                           zoom: 9.03,
