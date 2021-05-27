@@ -297,7 +297,7 @@ var config = {
                         hidden: false,
                         title: 'Las Vegas Return',
                         image: './images/15-vegas.jpeg',
-                        description: 'Clients will return back to Las Vegas; hopefully, feeling more restored.',
+                        description: 'Clients will return back to Las Vegas feeling more restored.',
                         location: {
                           center: { lon: -115.1398, lat: 36.1699 },
                           zoom: 9.03,
