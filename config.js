@@ -239,7 +239,7 @@ var config = {
                     onChapterExit: []
                   },{
                     id: 'horseshoe-canyon',
-                    alignment: 'right',
+                    alignment: 'left',
                     hidden: false,
                     title: 'Horseshoe Exploration',
                     image: './images/11-horseshoe.jpeg',
@@ -257,7 +257,7 @@ var config = {
                     onChapterExit: []
                   },{
                       id: 'grand-canyon',
-                      alignment: 'left',
+                      alignment: 'right',
                       hidden: false,
                       title: 'Grand Canyon Exploration',
                       image: './images/13-grand-canyon.png',
@@ -275,7 +275,7 @@ var config = {
                       onChapterExit: []
                     },{
                         id: 'arrival',
-                        alignment: 'right',
+                        alignment: 'left',
                         hidden: false,
                         title: 'Las Vegas Return',
                         image: './images/15-vegas.jpeg',
