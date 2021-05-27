@@ -186,10 +186,28 @@ var config = {
                     onChapterEnter: [],
                     onChapterExit: []
                   },{
+                    id: 'kanab',
+                    alignment: 'right',
+                    hidden: false,
+                    title: 'Kanab Exploration',
+                    image: './images/12-kanab.png',
+                    description: 'Depending on the trip, you may even have permitting for hiking through the wave in kanab.',
+                    location: {
+                        center: [-112.5263, 37.0475],
+                        zoom: 9.03,
+                        pitch: 57.50,
+                        bearing: -44.18
+                    },
+                    mapAnimation: 'flyTo',
+                    rotateAnimation: false,
+                    callback: '',
+                    onChapterEnter: [],
+                    onChapterExit: []
+                  },{
                     id: 'horseshoe-canyon',
                     alignment: 'left',
                     hidden: false,
-                    title: 'Zion Exploration',
+                    title: 'Horseshoe Exploration',
                     image: './images/11-horseshoe.jpeg',
                     description: 'On Day 3, you will drive the Horseshoe Canyon. Remember, everything you need to know about your itinerary including suggested podcasts, charging sites, great restaurants, and directions are in your EVJ app.',
                     location: {
@@ -204,27 +222,8 @@ var config = {
                     onChapterEnter: [],
                     onChapterExit: []
                   },{
-                  },{
-                      id: 'kanab',
-                      alignment: 'right',
-                      hidden: false,
-                      title: 'Kanab',
-                      image: './images/12-kanab.png',
-                      description: 'On Day 4, you’ll make your way to the Grand Canyon. There, like at each overnight location, you’ll find our solar powered charging stations for your van. They will also give you details on the community dinner so that you can meet fellow travelers. Definitely lean on the on site staff for any questions, but remember if you are between sites, help from EVJ headquarters is always available through the chat feature in the app. We are here at EVJ headquarters in Las Vegas to assist with any challenges that arises including the unlikely event that you have vehicle trouble. Our full time Fleet Manager is available 24/7 to help. On day 5…',
-                      location: {
-                          center: [-111.5104, 36.8791],
-                          zoom: 9.03,
-                          pitch: 57.50,
-                          bearing: -44.18
-                      },
-                      mapAnimation: 'flyTo',
-                      rotateAnimation: false,
-                      callback: '',
-                      onChapterEnter: [],
-                      onChapterExit: []
-                    },{
                       id: 'grand-canyon',
-                      alignment: 'left',
+                      alignment: 'right',
                       hidden: false,
                       title: 'Grand Canyon Exploration',
                       image: './images/13-grand-canyon.png',
@@ -245,7 +244,6 @@ var config = {
                         alignment: 'right',
                         hidden: false,
                         title: 'Las Vegas Return',
-                        // image: './path/to/image/source.png',
                         description: 'Clients will arrive in Vegas where they will pick up their vans.',
                         location: {
                           center: { lon: -115.1398, lat: 36.1699 },
@@ -262,9 +260,9 @@ var config = {
                         id: 'return',
                         alignment: 'full',
                         hidden: false,
-                        title: 'Las Vegas Return',
-                        image: './images/14-campfire.jpeg',
-                        description: 'Clients will arrive in Vegas where they will pick up their vans.',
+                        title: '',
+                        image: './images/ .jpeg',
+                        description: '',
                         location: {
                           center: { lon: -115.1398, lat: 36.1699 },
                           zoom: 9.03,
