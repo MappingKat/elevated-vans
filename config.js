@@ -189,7 +189,7 @@ var config = {
                 hidden: false,
                 title: 'Zion Exploration',
                 image: './images/09-zion-ntl-park.jpeg',
-                description: 'At every EVJ site, you’ll be greeted by our on site staff who will assist with specific activities in Zion like hikes, lectures, or yoga classes. ',
+                description: '',
                 location: {
                     center: [-113.0263, 37.2982],
                     zoom: 9.03,
@@ -207,7 +207,7 @@ var config = {
                   hidden: false,
                   title: 'Bryce Canyon',
                   image: './images/10-bryce-canyon.jpeg',
-                  description: 'On Day 2 of your trip, you’ll head over to Bryce Canyon. Elevated sites are in some of the most majestic locations in the world. It only takes 1-3 hours to drive between each of the destinations on your itinerary so you can take your time and relish in each location.',
+                  description: '',
                   location: {
                       center: [-112.1871, 37.5930],
                       zoom: 9.03,
@@ -225,27 +225,9 @@ var config = {
                     hidden: false,
                     title: 'Bryce Canyon',
                     image: './images/14-campfire.jpeg',
-                    description: 'In the evenings, you can experience the stars, good conversation around the campfires, and other various activities.',
+                    description: '',
                     location: {
                         center: [-112.2871, 37.4930],
-                        zoom: 9.03,
-                        pitch: 57.50,
-                        bearing: -44.18
-                    },
-                    mapAnimation: 'flyTo',
-                    rotateAnimation: false,
-                    callback: '',
-                    onChapterEnter: [],
-                    onChapterExit: []
-                  },{
-                    id: 'kanab',
-                    alignment: 'left',
-                    hidden: false,
-                    title: 'Kanab Exploration',
-                    image: './images/12-kanab.png',
-                    description: 'Depending on the trip, you may even have permitting for hiking through the wave in kanab.',
-                    location: {
-                        center: [-112.5263, 37.0475],
                         zoom: 9.03,
                         pitch: 57.50,
                         bearing: -44.18
@@ -261,7 +243,7 @@ var config = {
                     hidden: false,
                     title: 'Horseshoe Exploration',
                     image: './images/11-horseshoe.jpeg',
-                    description: 'On Day 3, you will drive the Horseshoe Canyon. Remember, everything you need to know about your itinerary including suggested podcasts, charging sites, great restaurants, and directions are in your EVJ app.',
+                    description: '',
                     location: {
                         center: [-111.5104, 36.8791],
                         zoom: 9.03,
@@ -279,7 +261,7 @@ var config = {
                       hidden: false,
                       title: 'Grand Canyon Exploration',
                       image: './images/13-grand-canyon.png',
-                      description: 'On Day 4, you’ll make your way to the Grand Canyon. There, like at each overnight location, you’ll find our solar powered charging stations for your van.',
+                      description: '',
                       location: {
                           center: [-112.1401, 36.0544],
                           zoom: 9.03,
