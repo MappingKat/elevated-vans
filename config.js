@@ -187,7 +187,7 @@ var config = {
                     onChapterExit: []
                   },{
                     id: 'kanab',
-                    alignment: 'right',
+                    alignment: 'left',
                     hidden: false,
                     title: 'Kanab Exploration',
                     image: './images/12-kanab.png',
@@ -205,7 +205,7 @@ var config = {
                     onChapterExit: []
                   },{
                     id: 'horseshoe-canyon',
-                    alignment: 'left',
+                    alignment: 'right',
                     hidden: false,
                     title: 'Horseshoe Exploration',
                     image: './images/11-horseshoe.jpeg',
@@ -223,7 +223,7 @@ var config = {
                     onChapterExit: []
                   },{
                       id: 'grand-canyon',
-                      alignment: 'right',
+                      alignment: 'left',
                       hidden: false,
                       title: 'Grand Canyon Exploration',
                       image: './images/13-grand-canyon.png',
