@@ -346,7 +346,7 @@ var config = {
                           onChapterExit: []
                         },{
                             id: 'references',
-                            alignment: 'full',
+                            alignment: 'center',
                             hidden: false,
                             title: '',
                             image: './images/end.png',
